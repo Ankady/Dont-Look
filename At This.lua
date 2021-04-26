@@ -20,7 +20,7 @@ end)
 local CaseName = "" -- Creates CaseName
 local Section2 = Tab1:NewSection("Farming Setup")
 local Section7 = Tab2:NewSection("Auto Upgrade")
-Section2:NewDropdown("Case Type", "Choose a type of Case!",  {'Tier 1 Case', 'Tier 2 Case', 'Tier 3 Case', 'Tier 4 Case', 'Tier 5 Case', 'Tier 6 Case', 'Tier 7 Case', 'Tier 8 Case', 'Tier 9 Case', 'Tier 10 Case', 'Tier 11 Case', 'Tier 12 Case, 'Animations Case', 'Radios Case', 'Tier 1 Premium Case', 'Tier 2 Premium Case'}, function(currentOption)
+Section2:NewDropdown("Case Type", "Choose a type of Case!",  {'Tier 1 Case', 'Tier 2 Case', 'Tier 3 Case', 'Tier 4 Case', 'Tier 5 Case', 'Tier 6 Case', 'Tier 7 Case', 'Tier 8 Case', 'Tier 9 Case', 'Tier 10 Case', 'Tier 11 Case', 'Tier 12 Case', 'Animations Case', 'Radios Case', 'Tier 1 Premium Case', 'Tier 2 Premium Case'}, function(currentOption)
     CaseName = currentOption -- Redefines CaseName for Remote Later On
 end)
 
